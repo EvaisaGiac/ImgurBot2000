@@ -21,7 +21,7 @@ const post = require('./lib/postToGallery'),
       },
       reputationTask = () => {
         reputation()
-        setTimeout(reputationTask, ms('1 day'))
+        setTimeout(reputationTask, ms('2 hours'))
       }
 
 postTask()
