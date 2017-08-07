@@ -1,6 +1,10 @@
 {
   "client_id": "",
   "secret": "",
+  "refresh_token": "",
+  "access_token": "",
   "username": "",
-  "pushbullet_key": ""
+  "pushbullet_key": "",
+  "giphy_key": "",
+  "debug": false
 }
