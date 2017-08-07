@@ -1,13 +1,14 @@
 {
-  "name": "repost-bot",
+  "name": "ImgurBot2000",
   "version": "1.0.0",
-  "description": "",
+  "description": "Increases your reputation... hopefully",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Grant Holle <github.com/grantholle",
   "license": "ISC",
+  "repository": "https://github.com/grantholle/ImgurBot2000",
   "dependencies": {
     "async": "^2.5.0",
     "jsonfile": "^3.0.1",
