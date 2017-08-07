@@ -1,0 +1,22 @@
+{
+  "name": "repost-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "jsonfile": "^3.0.1",
+    "lodash": "^4.17.4",
+    "millisecond": "^0.1.2",
+    "moment": "^2.18.1",
+    "pushbullet": "^2.0.0",
+    "request": "^2.81.0",
+    "sentencer": "^0.1.5",
+    "winston": "^2.3.1"
+  }
+}
