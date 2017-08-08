@@ -13,7 +13,7 @@ const post = require('./lib/postToGallery'),
         setTimeout(postTask, postInterval())
       },
       commentInterval = () => {
-        return r(ms('45 secs'), ms('2 mins'))
+        return r(ms('1 min'), ms('6 mins'))
       },
       commentTask = () => {
         commentate()
