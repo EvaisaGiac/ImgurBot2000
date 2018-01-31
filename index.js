@@ -6,14 +6,14 @@ const post = require('./lib/postToGallery'),
       r = require('./lib/random'),
       ms = require('millisecond'),
       postInterval = () => {
-        return r(ms('5 mins'), ms('20 mins'))
+        return r(ms('10 mins'), ms('120 mins'))
       },
       postTask = () => {
         post()
         setTimeout(postTask, postInterval())
       },
       commentInterval = () => {
-        return r(ms('1 min'), ms('6 mins'))
+        return r(ms('0 min'), ms('0 mins'))
       },
       commentTask = () => {
         commentate()
@@ -21,7 +21,7 @@ const post = require('./lib/postToGallery'),
       },
       reputationTask = () => {
         reputation()
-        setTimeout(reputationTask, ms('2 hours'))
+        setTimeout(reputationTask, ms('1 hours'))
       }
 
 postTask()
