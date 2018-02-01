@@ -6,7 +6,7 @@ const post = require('./lib/postToGallery'),
       r = require('./lib/random'),
       ms = require('millisecond'),
       postInterval = () => {
-        return r(ms('5 mins'), ms('150 mins'))
+        return r(ms('5 mins'), ms('200 mins'))
       },
       postTask = () => {
         post()
